@@ -1,0 +1,100 @@
+QWidget{
+    background-color:#033649;
+}
+#widgetDisplay1{
+    background-color:#000000;
+}
+#widgetDisplay2{
+    background-color:#000000;
+}
+#widgetDisplay3{
+    background-color:#000000;
+}
+#widgetDisplay4{
+    background-color:#000000;
+}
+*{
+	font-family:微软雅黑;
+	font-size:16px;
+	color: #E8DDCB;
+}
+#groupBox_5{
+    border:0px
+}
+#groupBox_6{
+    border:0px
+}
+#groupBox_7{
+    border:0px
+}
+#groupBox_8{
+    border:0px
+}
+.QPushButton{
+    border-style:none;
+    border:1px solid #036564;
+    color:#E8DDCB;
+    padding:5px;
+    min-height:15px;
+    border-radius:5px;
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #2F4F4F,stop:1 #2F4F4F);
+}
+QLineEdit,QComboBox{
+    border:1px solid #036564;
+    border-radius:3px;
+    padding:2px;
+    background:none;
+    background-color:#033649;
+    selection-background-color:#2F4F4F;
+    selection-color:#E8DDCB;
+}
+.QGroupBox{
+    border:1px solid #036564;
+    border-radius:5px;
+    margin-top:0px;
+    margin-bottom:5px;
+    margin-left:2px;
+    margin-right:2px
+}
+#Display1{
+    padding:1px 1px;
+    margin::1px 1px
+}
+#Display2{
+    padding:1px 1px;
+    margin::1px 1px
+}
+#Display3{
+    padding:1px 1px;
+    margin::1px 1px
+}
+#Display4{
+    padding:1px 1px;
+    margin::1px 1px
+}
+.QPushButton:hover{
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #031634,stop:1 #031634);
+}
+#btnEnum,#btnOpen,#btnClose,#labShowTime{
+    margin:1px 2px;
+}
+#labShowTime{
+color:red;
+}
+QToolTip{
+	font-family:微软雅黑;
+	font-size:20px;
+	color: #0F0F0F;
+    border:1px solid rgb(45, 45, 45);
+    background: #F0F0F0;
+}
+
+QTableWidget::item:hover{background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #2f4f4f,stop:1 #2f4f4f);}
+.QTableWidget{
+    border:1px solid #036564;
+    border-radius:1px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px
+}
