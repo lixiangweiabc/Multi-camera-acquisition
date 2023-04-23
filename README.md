@@ -1,6 +1,8 @@
 # Multi-camera-acquisition
 利用海康工业相机SDK实现的一个多相机采集系统。支持4个相机进行同步采集，同步方案采用的是利用一个信号源，发布同步信号，进行同步。
 为了提高采集速率，为原有的SDK提供了无损压缩功能。
+软件运行界面截图如下：
+![image](https://github.com/lixiangweiabc/Multi-camera-acquisition/blob/main/%E8%BD%AF%E4%BB%B6%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.PNG)
 主要支持如下功能：
 ### 查找设备，连接设备，关闭设备
 ### 切换采集模式：连续模式，触发模式。
@@ -11,3 +13,4 @@
 ### 参数设置
 帧率，分辨率，曝光时间
 ### 设备信息展示
+
